@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Esportify</string>
+    <string-array name="games">
+    <item>Valorant</item>
+    <item>PUBG</item>
+    <item>COD</item>
+    <item>GTA</item>
+    <item>FreeFire</item>
+</string-array>
+
+    <string-array name="modes">
+        <item>Single</item>
+        <item>Duo</item>
+        <item>Squad</item>
+    </string-array>
+<style name="splashscreen"></style>
+</resources>

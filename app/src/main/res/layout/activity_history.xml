@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="History"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:background="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="70dp"
+            android:background="#000000">
+
+            <TableRow
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#808080"
+                >
+
+                <TextView
+
+                    android:text="Number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/number"
+                    android:background="#808080"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:text="Rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rank"
+                    android:paddingLeft="30dp"
+                    android:background="#808080"
+                    android:layout_column="2" />
+                <TextView
+                    android:text="Tournament Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tournamentname"
+                    android:paddingLeft="30dp"
+                    android:background="#808080"
+                    android:layout_column="3"/>
+                <TextView
+                    android:text="Position"
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#808080"
+                    android:id="@+id/Postition"
+                    android:layout_column="3"/>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
