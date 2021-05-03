@@ -67,6 +67,7 @@
 
 
     <Button
+        android:onClick="signUpButton"
         android:id="@+id/btnsignup"
         android:layout_width="85dp"
         android:layout_height="35dp"

@@ -110,6 +110,13 @@ public class login extends AppCompatActivity {
         queue.add(stringRequest);
 
     }
+
+    public void signUpButton(View view) {
+
+        Intent intent = new Intent(login.this, signup.class);
+        startActivity(intent);
+
+    }
 }
 
 
